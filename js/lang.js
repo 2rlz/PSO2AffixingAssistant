@@ -475,8 +475,9 @@ const lang = Object.freeze({
             jp: "この合成式へのリンクを共有する"
         },
         menuLanguageDescription: {
-            en: "Switch languase (japanese/日本語)",
-            jp: "スイッチランゲージ（英語/English）"
+            en: "Switch languase (Japanese/Korean)",
+            jp: "スイッチランゲージ（韓国語/英語）",
+            kr: "언어 전환 (영어/일본어)"
         },
         menuThemesDescription: {
             en: "Change application theme",
