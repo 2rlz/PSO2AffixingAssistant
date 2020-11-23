@@ -29,329 +29,414 @@ const lang = Object.freeze({
     "app": {
         appTitle: {
             en: "PSO2 Affixing Assistant",
-            jp: "PSO2合成アシスタント"
+            jp: "PSO2合成アシスタント",
+            kr: "PSO2 합성 어시스턴트"
         },
         subHeader: {
             en: "How it works:",
-            jp: "使い方："
+            jp: "使い方：",
+            kr: "사용법"
         },
         goalFodderTitle: {
             en: "GOAL",
-            jp: "ゴール"
+            jp: "ゴール",
+            kr: "목표"
         },
         mainFodderTitle: {
             en: "Main Fodder",
-            jp: "主装備"
+            jp: "主装備",
+            kr: "메인 장비"
         },
         fodderTitle: {
             en: "Fodder",
-            jp: "装備"
+            jp: "装備",
+            kr: "장비"
         },
         materialTitle: {
             en: "Material Fodder",
-            jp: "材料装備"
+            jp: "材料装備",
+            kr: "재료 장비"
         },
         affixLabel: {
             en: "AFFIX IT",
-            jp: "合成"
+            jp: "合成",
+            kr: "합성"
         },
         reAffixLabel: {
             en: "RE-AFFIX IT",
-            jp: "再合成"
+            jp: "再合成",
+            kr: "재합성"
         },
         cannotAffixLabel: {
             en: "CANNOT AFFIX",
-            jp: "塞がり"
+            jp: "塞がり",
+            kr: "합성 불가능"
         },
         transplantLabel: {
             en: "TRANSPLANT IT",
-            jp: "移植"
+            jp: "移植",
+            kr: "이식"
         },
         reTransplantLabel: {
             en: "RE-TRANSPLANT IT",
-            jp: "再移植"
+            jp: "再移植",
+            kr: "재이식"
         },
         cannotTransplantLabel: {
             en: "CANNOT TRANSPLANT",
-            jp: "移植不可能"
+            jp: "移植不可能",
+            kr: "이식 불가능"
         },
         stageSuccessLabel: {
             en: "Stage Success",
-            jp: "ステージの成功"
+            jp: "ステージの成功",
+            kr: "스테이지 성공"
         },
         abilitySuccessSpanTitle: {
             en: (rate) => `${rate}% chance of transfering this ability`,
-            jp: (rate) => `この能力を${rate}％の確率で譲渡する`
+            jp: (rate) => `この能力を${rate}％の確率で譲渡する`,
+            kr: (rate) => `이 능력을${rate}%의 확률로 옮깁니다.`
         },
         stageTransplantCostLabel: {
             en: "Stage Transplant Cost",
-            jp: "ステージ移植費用"
+            jp: "ステージ移植費用",
+            kr: "스테이지 이식 비용"
         },
         fodderTransplantCostLabel: {
             en: "Transplant Cost",
-            jp: "移植費用"
+            jp: "移植費用",
+            kr: "이식 비용"
         },
         factorLabel: {
             en: "Special Ability Factor",
-            jp: "特殊能力因子"
+            jp: "特殊能力因子",
+            kr: "특수능력인자"
         },
         fodderSuccessDivTitle: {
             en: "Success in making this equipment",
-            jp: "この機器の製造に成功"
+            jp: "この機器の製造に成功",
+            kr: "장비 제작 성공"
         },
         goalLabel: {
             en: "Goal",
-            jp: "ゴール"
+            jp: "ゴール",
+            kr: "목표"
         },
         fodderLabel: {
             en: "Fodder",
-            jp: "装備"
+            jp: "装備",
+            kr: "장비"
         },
         fodderSuccessLabel: {
             en: "Success",
-            jp: "成功率"
+            jp: "成功率",
+            kr: "성공률"
         },
         sameEquipLabel: {
             en: "Same Equipment",
-            jp: "同じ機器"
+            jp: "同じ機器",
+            kr: "동일한 장비"
         },
         sameEquipDescription: {
             en: "Is fodder made with identical equipment?",
-            jp: "それは同じ装置で作られていますか？"
+            jp: "それは同じ装置で作られていますか？",
+            kr: "동일한 장비로 제작합니까?"
         },
         rateBoostDescription: {
             en: "Is fodder using Affix Boost Item?",
-            jp: "合成ブーストアイテムが使用されていますか？"
+            jp: "合成ブーストアイテムが使用されていますか？",
+            kr: "합성 부스트 아이템을 사용합니까?"
         },
         potDescription: {
             en: "Does equipment have potential that boosts affixing?",
-            jp: "装置は合成を促進する 潜在能力を持っていますか？"
+            jp: "装置は合成を促進する 潜在能力を持っていますか？",
+            kr: "합성 부스트 잠재능력을 가진 장비로 제작합니까?"
         },
         boostWeekOption: {
             en: (option) => `+${option}% Boost Week`,
-            jp: (option) => `+${option}%ブーストウィーク`
+            jp: (option) => `+${option}%ブーストウィーク`,
+            kr: (option) => `+${option}% 부스트 주간`
         },
         boostWeekDescription: {
             en: "Additional affixing boost from boost week",
-            jp: "ブースト週間からの追加の固定ブースト"
+            jp: "ブースト週間からの追加の固定ブースト",
+            kr: "부스트 주간에 의한 추가 고정 부스트"
         },
         rateStarsRequest: {
             en: "Rate the New Formula?",
-            jp: "新しい式を評価しますか？"
+            jp: "新しい式を評価しますか？",
+            kr: "새로운 수식을 평가하겠습니까?"
         },
         rateStarsRated: {
             en: "Thank You!",
-            jp: "ありがとう！"
+            jp: "ありがとう！",
+            kr: "감사합니다!"
         },
         rateStars1AltText: {
             en: "Terrible",
-            jp: "ひどい"
+            jp: "ひどい",
+            kr: "너무하네요"
         },
         rateStars2AltText: {
             en: "Bad",
-            jp: "悪い"
+            jp: "悪い",
+            kr: "나쁨"
         },
         rateStars4AltText: {
             en: "Great",
-            jp: "良い"
+            jp: "良い",
+            kr: "좋음"
         },
         rateStars5AltText: {
             en: "Incredible",
-            jp: "すごい"
+            jp: "すごい",
+            kr: "굉장함"
         },
         shareFormulaTitle: {
             en: "Link to This Formula",
-            jp: "この数式へのリンク"
+            jp: "この数式へのリンク",
+            kr: "이 수식을 링크"
         },
         shareFormulaButton: {
             en: "Copy to Clipboard (Long)",
-            jp: "クリップボードにコピー(長いです)"
+            jp: "クリップボードにコピー(長いです)",
+            kr: "클립보드에 복사 (장문)"
         },
         shareFormulaButtonShort: {
             en: "Copy to Clipboard (Short)",
-            jp: "クリップボードにコピー(ショート)"
+            jp: "クリップボードにコピー(ショート)",
+            kr: "클립보드에 복사 (단문)"
         },
         openInSimButton: {
             en: "Open in Affix Simulator",
-            jp: "合成シミュレータで開く"
+            jp: "合成シミュレータで開く",
+            kr: "합성 시뮬레이터를 열기"
         },
         closeButton: {
             en: "Close",
-            jp: "閉じる"
+            jp: "閉じる",
+            kr: "닫기"
         },
         filterSearchPlaceholder: {
             en: "Search affixes..",
-            jp: "能力を検索する。。"
+            jp: "能力を検索する。。",
+            kr: "능력을 찾는 중.."
         },
         filterSearchTitle: {
             en: "Type in an ability name",
-            jp: "能力名を入力して"
+            jp: "能力名を入力して",
+            kr: "능력명을 입력하세요"
         },
         excludeSearchPlaceholder: {
             en: "Exclude affixes (,)",
-            jp: "能力を除外（、）"
+            jp: "能力を除外（、）",
+            kr: "능력을 제외 (,)"
         },
         excludeSearchTitle: {
             en: "Type in ability names to exclude separated by comma",
-            jp: "除外する能力名をコンマで区切って入力します"
+            jp: "除外する能力名をコンマで区切って入力します",
+            kr: "제외할 능력명을 쉼표로 구분하여 입력하세요"
+
         },
         excludeSearchBtn: {
             en: "Toggle to exclude results",
-            jp: "結果を除外するトグル"
+            jp: "結果を除外するトグル",
+            kr: "결괴를 제외하여 토글"
         },
         chooseAffixTitle: {
             en: "Choose Abilities",
-            jp: "能力を選ぶ"
+            jp: "能力を選ぶ",
+            kr: "능력 선택"
         },
         chooseMethodTitle: {
             en: "Choose Method of Making",
-            jp: "作り方を選ぶ"
+            jp: "作り方を選ぶ",
+            kr: "제작법을 선택"
         },
         reviewTweakTitle: {
             en: "Review and Tweak",
-            jp: "レビューと微調整"
+            jp: "レビューと微調整",
+            kr: "리뷰 및 미세 조정"
         },
         reviewTweakTooltip1: {
             en: "Select abilities to change places",
-            jp: "場所を変更する能力を選択する"
+            jp: "場所を変更する能力を選択する",
+            kr: "위치를 바꿀 능력을 선택하세요"
         },
         reviewTweakTooltip2: {
             en: "And press confirm when ready",
-            jp: "準備ができたら確定を押してください"
+            jp: "準備ができたら確定を押してください",
+            kr: "준비되었으면 확인을 눌러 주세요"
         },
         transplantTitle: {
             en: "Special Ability Transplant",
-            jp: "特殊能力移植"
+            jp: "特殊能力移植",
+            kr: "특수능력 이식"
         },
         transplantTooltip: {
             en: "<strong>WARNING</strong>: The formula below will cause the Material Fodder to lose some ability slots.",
-            jp: "<strong>警告</strong>: 以下の式では、マテリアルフォダーが一部の能力スロットを失います。"
+            jp: "<strong>警告</strong>: 以下の式では、マテリアルフォダーが一部の能力スロットを失います。",
+            kr: "<strong>경고</strong>: 이하의 식으로 인해 재료 장비의 슬롯을 일부 상실합니다."
         },
         transplantOptionsLabel: {
             en: "Transplant Options:",
-            jp: "移植オプション"
+            jp: "移植オプション",
+            kr: "이식 옵션"
         },
         transplantMaterialSlotLabel: {
             en: "Material Slot",
-            jp: "材料のスロット数"
+            jp: "材料のスロット数",
+            kr: "재료 슬롯 수"
         },
         transplantAddAbilityItemLabel: {
             en: "Add Ability Item",
-            jp: "特殊能力追加"
+            jp: "特殊能力追加",
+            kr: "특수능력 추가"
         },
         selectButton: {
             en: "Select",
-            jp: "選択する"
+            jp: "選択する",
+            kr: "선택"
         },
         cancelButton: {
             en: "Cancel",
-            jp: "キャンセル"
+            jp: "キャンセル",
+            kr: "취소"
         },
         resetButton: {
             en: "Reset",
-            jp: "リセット"
+            jp: "リセット",
+            kr: "초기화"
         },
         affixingTitle: {
             en: "Affixing",
-            jp: "合成"
+            jp: "合成",
+            kr: "합성"
         },
         reportIssueTitle: {
             en: "Uh oh...",
-            jp: "ええとああ。。。"
+            jp: "ええとああ。。。",
+            kr: "어어..."
         },
         reportIssueDescription: {
             en: "Something went wrong while building this affixing formula. Would you like to report this problem?",
-            jp: "この式を作成中に何かがうまくいかなかった。この問題を報告しますか？"
+            jp: "この式を作成中に何かがうまくいかなかった。この問題を報告しますか？",
+            kr: "합성식을 만드는 도중 오류가 발생하였습니다. 문제를 보고하겠습니까?"
         },
         reportIssueButtonLabel: {
             en: "Open GitHub Issues Page",
-            jp: "GitHubの問題ページを開く"
+            jp: "GitHubの問題ページを開く",
+            kr: "GitHub 문제 페이지 열기"
         },
         formulaSheetTitle: {
             en: "Affixing Formula Sheet",
-            jp: "合成フォーミュラシート"
+            jp: "合成フォーミュラシート",
+            kr: "합성식 시트"
         },
         affixUse: {
             en: (successRate, affixName, choicesString) => `${successRate}% Making ${affixName} with: ${choicesString}`,
-            jp: (successRate, affixName, choicesString) => `${successRate}%と一緒に${affixName}を作る: ${choicesString}`
+            jp: (successRate, affixName, choicesString) => `${successRate}%と一緒に${affixName}を作る: ${choicesString}`,
+            kr: (successRate, affixName, choicesString) => `${successRate}%로 ${affixName}를 제작합니다: ${choicesString}`
+
         },
         wishListTitle: {
             en: "Materials Needed",
-            jp: "必要な材料"
+            jp: "必要な材料",
+            kr: "필요 재료"
         },
         wishListItemDivider: {
             en: ', ',
-            jp: '、'
+            jp: '、',
+            kr: ","
         },
         wishListFactorDescription: {
             en: (name) => ` (Special Ability Factor: ${name})`,
-            jp: (name) => `（特殊能力因子：${name}）`
+            jp: (name) => `（特殊能力因子：${name}）`,
+            kr: (name) => `（특수능력인자：${name}）`
         },
         wishListAbilityItem: {
             en: (fodder) => `${fodder.size()}s Fodder: ${fodder.affixes.filter(a => !a.code.startsWith('Z')).length == 0 ? `Any Junk` : fodder.affixes.filter(a => !a.code.startsWith('Z'))
                 .map(a => lang[a.code].name_en).sort().join(lang.app.wishListItemDivider.en)}`,
             jp: (fodder) => `${fodder.size()}スロット装備：${fodder.affixes.filter(a => !a.code.startsWith('Z')).length == 0 ? `ジャンク` : fodder.affixes.filter(a => !a.code.startsWith('Z'))
+                .map(a => lang[a.code].name_jp).sort().join(lang.app.wishListItemDivider.jp)}`,
+            kr: (fodder) => `${fodder.size()}슬롯 장비：${fodder.affixes.filter(a => !a.code.startsWith('Z')).length == 0 ? `정크` : fodder.affixes.filter(a => !a.code.startsWith('Z'))
                 .map(a => lang[a.code].name_jp).sort().join(lang.app.wishListItemDivider.jp)}`
         },
         wishListAbilityDescription: {
             en: (amount, description) => `${(amount > 1) ? `(${amount}x) ` : ``}${description}`,
-            jp: (amount, description) => `${(amount > 1) ? `（${amount}倍）` : ``}${description}`
+            jp: (amount, description) => `${(amount > 1) ? `（${amount}倍）` : ``}${description}`,
+            kr: (amount, description) => `${(amount > 1) ? `（${amount}배）` : ``}${description}`
+
         },
         wishListTransplantCostDescr: {
             en: (count) => `${count} Special Ability Transplant Pass${count > 1 ? `es` : ``}`,
-            jp: (count) => `${count}特殊能力移植パス`
+            jp: (count) => `${count}特殊能力移植パス`,
+            kr: (count) => `${count}특수능력 이식 패스`
         },
         upslottingLabel: {
             en: "Affix By Upslotting",
-            jp: "増加カウントによる合成"
+            jp: "増加カウントによる合成",
+            kr: "슬롯 수를 늘리며 합성"
         },
         upslottingDescription: {
             en: "Using equipment with less slots to make gear with more slots",
-            jp: "より少ないスロットの装置を使用して、より多くのスロットを備えたギアを作る"
+            jp: "より少ないスロットの装置を使用して、より多くのスロットを備えたギアを作る",
+            kr: "적은 슬롯의 장비를 사용하여 더 많은 슬롯의 장비 만들기"
         },
         spreadLabel: {
             en: "Use All Six Fodders",
-            jp: "6つの合成スロットをすべて使用する"
+            jp: "6つの合成スロットをすべて使用する",
+            kr: "6개의 합성 슬롯을 모두 사용"
         },
         spreadDescription: {
             en: "Makes it cheaper to produce the intermediary equipment",
-            jp: "仲介機器を生産するのが安くなる"
+            jp: "仲介機器を生産するのが安くなる",
+            kr: "중간 장비를 만들어 비용 절감"
         },
         trainerLabel: {
             en: "Guidance Trainer +5%",
-            jp: "錬成の導き"
+            jp: "錬成の導き",
+            kr: "연성의 인도 +5%"
         },
         trainerDescription: {
             en: "Increases affixing success rate by 5% (it must be in the main fodder)",
-            jp: "特殊能力の成功率を5％上昇させる(それは主装備の中にある必要があります)"
+            jp: "特殊能力の成功率を5％上昇させる(それは主装備の中にある必要があります)",
+            kr: "특수능력 합성 성공률을 5% 증가시킵니다 (반드시 메인 장비에 있어야 합니다)"
         },
         affixingSelectionTitle: {
             en: "Affixing Goal",
-            jp: "合成目標"
+            jp: "合成目標",
+            kr: "합성 목표"
         },
         statsViewerTitle: {
             en: "Stats",
-            jp: "状態"
+            jp: "状態",
+            kr: "스탯"
         },
         affixChoices: {
             en: "Choices",
-            jp: "選択肢"
+            jp: "選択肢",
+            kr: "선택 사항"
         },
         affixChoiceLabel: {
             en: "Affix",
-            jp: "合成"
+            jp: "合成",
+            kr: "합성"
         },
         abilityListTitle: {
             en: "Ability",
-            jp: "能力"
+            jp: "能力",
+            kr: "능력"
         },
         abilityFormulasTitle: {
             en: "How To Make",
-            jp: "作成方法"
+            jp: "作成方法",
+            kr: "제작법"
         },
         abilityFormulaUsesTitle: {
             en: "Used To Make",
-            jp: "合成に使用"
+            jp: "合成に使用",
+            kr: "합성에 사용"
         },
         warningMsg: {
             en: abilities => `WARNING! The following abilities can only be transferred via Special Ability Transplant: ${abilities.reduce((a, b, c) => a + (c === 0 ? '' : ', ') + b )}`,
